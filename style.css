@@ -1,0 +1,83 @@
+/*
+===============
+Variables
+===============
+*/
+
+:root {
+  --clr-white: #fff;
+  --clr-black: #222;
+  --ff-primary: "Raleway", sans-serif;
+  --ff-secondary: "Open Sans", sans-serif;
+  --transition: all 0.3s linear;
+  --max-width: 1170px;
+  --fixed-width: 620px;
+}
+/*
+=============== 
+Global Styles
+===============
+*/
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--ff-secondary);
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.img {
+  display: block;
+  width: 100%;
+}
+.section {
+  padding: 5rem 0;
+}
+.center {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+/*
+=============== 
+Header
+===============
+*/
+
+.header {
+  padding: 0;
+  padding-top: 1.5rem;
+}
+/* pic */
+.avatar-img {
+  width: 130px;
+  height: 130px;
+  border: 2px solid black;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.avatar {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+/* socials */
+.socials{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.social-logo {
+  width: 40px;
+}
+/* text */
