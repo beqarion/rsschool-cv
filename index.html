@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="assets/images/user-profile.png">
   <link rel="stylesheet" href="style.css">
-  <title>CV</title>
+  <title>bshekiladze | cv</title>
 </head>
 
 <body>
@@ -32,9 +33,9 @@
             <a aria-label="my FreeCodeCamp profile" class="social-link"
               href="https://www.freecodecamp.org/beqarioni"><img class="img social-logo"
                 src="assets/images/fcc-logo.png" alt="freecodecamp logo" title="freeCodeCamp profile"></a>
-            <a aria-label="my CodeWars profile" class="social-link" href="https://www.codewars.com/users/beqarion"><img
-                class="img social-logo" src="assets/images/codewars-logo.svg" alt="code wars logo"
-                title="code Wars profile"></a>
+            <a aria-label="my CodeWars profile" class="social-link"
+              href="https://www.codewars.com/users/rsschool_1e8e48c0f570ac82"><img class="img social-logo"
+                src="assets/images/codewars-logo.svg" alt="code wars logo" title="code Wars profile"></a>
             <a aria-label="my profile on the frontendmentor" class="social-link"
               href="https://www.frontendmentor.io/profile/beqarion"><img class="img social-logo"
                 src="assets/images/frontent-logo.svg" alt="frontend mentor logo" title="Frontend Mentor profile"></a>
@@ -55,24 +56,6 @@
 
     <!-- main -->
     <main class="main">
-      <!-- about me -->
-      <section class="section" id="about">
-        <div class="center">
-          <h2 class="section-title about-title">About Me</h2>
-          <p class="about-text">
-            With several years of experience in the telecommunications
-            industry, I realized that working with bits and numbers alone
-            wasn't as fulfilling as I had hoped. My childhood passion for
-            drawing inspired me to explore the world of design, and eventually
-            led me to the exciting field of frontend web development. While
-            I'm not yet working as a web developer, I'm actively learning and
-            applying my technical skills to merge logic with creativity, and
-            I'm eager to bring beautiful, functional websites to life in the
-            near future.
-          </p>
-        </div>
-      </section>
-      <!--end of about me -->
 
       <!-- projects -->
       <section class="section projects-section" id="projects">
@@ -129,32 +112,93 @@
       </section>
       <!-- end of projects -->
 
-      <!-- code -->
-      <section class="section example-code-section" id="example-code">
-        <div class="center">
-          <h2 class="section-title code-title">code example</h2>
-          <div class="code">
-            <h3 class="challenge-title">"Disemvowel Trolls"</h3>
-            <p class="challenge-text">
-              Trolls are attacking your comment section! A common way to deal
-              with this situation is to remove all of the vowels from the
-              trolls' comments, neutralizing the threat. Your task is to write
-              a function that takes a string and return a new string with all
-              vowels removed. For example, the string "This website is for
-              losers LOL!" would become "Ths wbst s fr lsrs LL!". Note: for
-              this kata y isn't considered a vowel.
-            </p>
-            <pre class="challenge-solution">
-function disemvowel(str){
-  return str.split("").filter(el=&gt;{
-    return !['a','e','i','o','u'].includes(el.toLowerCase())
-  }).join("")
-}
-              </pre>
-          </div>
+
+      <!-- work experience -->
+      <section class="section experience-section" id="experience">
+        <div class="center experience-center">
+          <h2 class="section-title">work experience</h2>
+          <ul class="experience-container">
+
+            <!-- single experience start -->
+            <li class="exp-section">
+              <div class="exp-header">
+                <!-- company & role -->
+                <div class="exp-role">
+                  <h3 class="exp-title">Transmission Engineer</h3>
+                  <span class="exp-city">Tbilisi, Georgia</span>
+                </div>
+                <!-- location & dates -->
+                <div class="exp-location">
+                  <h3 class="exp-company">Caucasus Online</h3>
+                  <span class="exp-period">May 2020 - Present</span>
+                </div>
+              </div>
+              <!-- description list -->
+              <ul class="job-description">
+                <li class="work-description">
+                  <code>
+                    Monitor, troubleshoot, and maintain Caucasus Online's optical transmission systems to ensure high availability and performance.
+                  </code>
+                </li>
+              </ul>
+            </li>
+            <!-- single experience start -->
+
+            <!-- single experience start -->
+            <li class="exp-section">
+              <div class="exp-header">
+                <!-- company & role -->
+                <div class="exp-role">
+                  <h3 class="exp-title">Transmission Engineer</h3>
+                  <span class="exp-city">Tbilisi, Georgia</span>
+                </div>
+                <!-- location & dates -->
+                <div class="exp-location">
+                  <h3 class="exp-company">Caucasus Online</h3>
+                  <span class="exp-period">May 2020 - Present</span>
+                </div>
+              </div>
+              <!-- description list -->
+              <ul class="job-description">
+                <li class="work-description">
+                  <code>
+                    Monitor, troubleshoot, and maintain Caucasus Online's optical transmission systems to ensure high availability and performance.
+                  </code>
+                </li>
+              </ul>
+            </li>
+            <!-- single experience start -->
+
+            <!-- single experience start -->
+            <li class="exp-section">
+              <div class="exp-header">
+                <!-- company & role -->
+                <div class="exp-role">
+                  <h3 class="exp-title">Transmission Engineer</h3>
+                  <span class="exp-city">Tbilisi, Georgia</span>
+                </div>
+                <!-- location & dates -->
+                <div class="exp-location">
+                  <h3 class="exp-company">Caucasus Online</h3>
+                  <span class="exp-period">May 2020 - Present</span>
+                </div>
+              </div>
+              <!-- description list -->
+              <ul class="job-description">
+                <li class="work-description">
+                  <code>
+                    Monitor, troubleshoot, and maintain Caucasus Online's optical transmission systems to ensure high availability and performance.
+                  </code>
+                </li>
+              </ul>
+            </li>
+            <!-- single experience start -->
+          </ul>
         </div>
       </section>
-      <!-- end of code -->
+      <!-- end of work experience -->
+
+
 
       <!-- education -->
       <section class="section education-section" id="education">
@@ -249,7 +293,7 @@ function disemvowel(str){
       <div class="center footer-center">
         <a aria-label="my github profile" href="https://github.com/beqarion" target="_blank"><img
             src="assets/images/github-logo.svg" alt=""></a>
-        <strong>&copy; 2024</strong>
+        <strong>&copy; 2025</strong>
         <a aria-label="RS School js course url" href="https://wearecommunity.io/events/js-en-2024q4" target="_blank"
           title="RS School js course">
           <img src="assets/images/rs-school-logo.svg" alt="RS School Logo" width="120">
